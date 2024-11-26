@@ -11,4 +11,10 @@ body {
 #badge {
 	height: 120px;
 	width: 120px;
+	transition: filter 0.75s, transform 0.5s, margin-bottom 0.5s;
+}
+#badge:hover {
+	filter: brightness(1.5);
+	transform: scale(1.08) ;
+	margin-bottom: -10px;
 }
